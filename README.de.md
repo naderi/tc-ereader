@@ -32,7 +32,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 
 ## Download und Installation
 
-1. **`eReader.zip`** aus der [neuesten Version](https://github.com/naderi/ereader/releases/latest) herunterladen.
+1. **`eReader.zip`** aus der [neuesten Version](https://github.com/naderi/tc-ereader/releases/latest) herunterladen.
 2. Die ZIP-Datei im Total Commander öffnen (Enter auf der Datei) und die Frage nach der Installation des Plugins bestätigen.
 
 Die Einstellungen liegen in `eReader.ini` neben dem Plugin. Voraussetzung ist Windows 10 oder 11 (PDF-Seiten zeichnet die in Windows eingebaute PDF-Engine).
