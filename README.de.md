@@ -3,7 +3,7 @@
 [English](README.md) | **Deutsch**
 
 Ein Betrachter für PDF, E-Books und Comics (Lister-Plugin) für den [Total Commander](https://www.ghisler.com), 32 und 64 Bit.
-F3 auf einer PDF-, EPUB-, FB2-, MOBI/AZW3- oder CBZ-Datei, und sie lässt sich direkt lesen – schnell und sparsam, mit Inhaltsverzeichnis, Textsuche, Links und dunklem Design.
+F3 auf einer PDF-, EPUB-, FB2-, MOBI/AZW3- oder Comic-Datei (CBZ, CBR, CB7), und sie lässt sich direkt lesen – schnell und sparsam, mit Inhaltsverzeichnis, Textsuche, Links und dunklem Design.
 PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer angenehmen Lesespalte gesetzt. Nativ, keine Laufzeitumgebung, nichts zu installieren außer dem Plugin.
 
 ![eReader zeigt ein EPUB-Buch mit Inhaltsverzeichnis](docs/screenshot.de.png)
@@ -14,7 +14,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - **EPUB:** `.epub`, `.kepub`
 - **FictionBook:** `.fb2`, `.fbz`
 - **Mobipocket und Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC; Bücher mit Kopierschutz (DRM) können nicht angezeigt werden
-- **Comics:** `.cbz`
+- **Comics:** `.cbz`, `.cbr`, `.cb7` – CBR und CB7 nutzen die UnRAR- und 7-Zip-Bibliotheken des Total Commanders (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` für 32 Bit)
 
 ## Funktionen
 
@@ -25,7 +25,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - E-Books: größere und kleinere Schrift, wählbare Schriftart, schmale Textspalte, Bilder, Tabellen und Fußnoten
 - Text markieren und kopieren, auch in PDFs mit Textebene
 - Miniaturansichten für die Thumbnail-Ansicht des Total Commander (Cover oder erste Seite)
-- Helles und dunkles Design (automatisch wie Windows oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln
+- Helles und dunkles Design (automatisch wie Windows, wie Total Commander oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln
 - Seiten werden im Hintergrund gezeichnet: Der Lister bleibt bedienbar, auch bei großen Büchern
 - Statusleiste mit Titel, Autor, Format und Seiten- bzw. Kapitelzahl
 - Oberfläche auf Deutsch und Englisch (richtet sich nach der Windows-Sprache)

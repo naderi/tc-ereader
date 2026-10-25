@@ -3,7 +3,7 @@
 **English** | [Deutsch](README.de.md)
 
 A PDF, e-book and comic book viewer (Lister plugin) for [Total Commander](https://www.ghisler.com), 32 and 64 bit.
-Press F3 on a PDF, EPUB, FB2, MOBI/AZW3 or CBZ file and read it right there – fast and with little memory, with table of contents, text search, links and a dark design.
+Press F3 on a PDF, EPUB, FB2, MOBI/AZW3 or comic book (CBZ, CBR, CB7) file and read it right there – fast and with little memory, with table of contents, text search, links and a dark design.
 PDF pages are rendered by Windows itself, e-books are laid out as flowing text in a comfortable reading column. Native, no runtime, nothing to install besides the plugin.
 
 ![eReader showing an EPUB book with its table of contents](docs/screenshot.png)
@@ -14,7 +14,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - **EPUB:** `.epub`, `.kepub`
 - **FictionBook:** `.fb2`, `.fbz`
 - **Mobipocket and Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC; books with DRM cannot be shown
-- **Comic books:** `.cbz`
+- **Comic books:** `.cbz`, `.cbr`, `.cb7` – CBR and CB7 use the UnRAR and 7-Zip libraries of Total Commander (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` for 32 bit)
 
 ## Features
 
@@ -25,7 +25,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - E-books: larger and smaller text, selectable font, narrow text column, pictures, tables and footnotes
 - Text selection and copying, also in PDFs with a text layer
 - Thumbnails for Total Commander's thumbnail view (cover or first page)
-- Light and dark design (automatic like Windows, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too
+- Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too
 - Pages are rendered in the background: the Lister stays responsive, even with large books
 - Status bar with title, author, format and page or chapter count
 - English and German user interface (follows the Windows language)
