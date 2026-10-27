@@ -27,7 +27,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Thumbnails for Total Commander's thumbnail view (cover or first page)
 - Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too
 - Pages are rendered in the background: the Lister stays responsive, even with large books
-- Status bar with title, author, format and page or chapter count
+- Tooltips on all toolbar buttons and on links; the info button sits in the toolbar, so the whole window is for reading
 - English and German user interface (follows the Windows language)
 
 ## Download and installation
