@@ -6,7 +6,7 @@ A PDF, e-book and comic book viewer (Lister plugin) for [Total Commander](https:
 Press F3 on a PDF, EPUB, FB2, MOBI/AZW3 or comic book (CBZ, CBR, CB7) file and read it right there – fast and with little memory, with table of contents, text search, links and a dark design.
 PDF pages are rendered by Windows itself, e-books are laid out as flowing text in a comfortable reading column. Native, no runtime, nothing to install besides the plugin.
 
-![eReader showing an EPUB book with its table of contents](docs/screenshot.png)
+![eReader showing a PDF with its bookmarks, with the zoom, fit, rotate and darken buttons in the toolbar](docs/screenshot.png)
 
 ## Supported files
 
@@ -34,7 +34,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 
 ![The info dialog with the book's title, author, series, publisher, ISBN and description](docs/about.png)
 
-![eReader showing a PDF with its bookmarks, with the zoom, fit, rotate and darken buttons in the toolbar](docs/pdf.png)
+![eReader showing an EPUB book with its table of contents](docs/epub.png)
 
 ## Download and installation
 

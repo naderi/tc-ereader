@@ -6,7 +6,7 @@ Ein Betrachter für PDF, E-Books und Comics (Lister-Plugin) für den [Total Comm
 F3 auf einer PDF-, EPUB-, FB2-, MOBI/AZW3- oder Comic-Datei (CBZ, CBR, CB7), und sie lässt sich direkt lesen – schnell und sparsam, mit Inhaltsverzeichnis, Textsuche, Links und dunklem Design.
 PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer angenehmen Lesespalte gesetzt. Nativ, keine Laufzeitumgebung, nichts zu installieren außer dem Plugin.
 
-![eReader zeigt ein EPUB-Buch mit Inhaltsverzeichnis](docs/screenshot.de.png)
+![eReader zeigt ein PDF mit seinen Lesezeichen und den Symbolleisten-Buttons für Zoom, Anpassen, Drehen und Abdunkeln](docs/screenshot.de.png)
 
 ## Unterstützte Dateien
 
@@ -34,7 +34,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 
 ![Der Info-Dialog mit Titel, Autor, Reihe, Verlag, ISBN und Beschreibung des Buchs](docs/about.de.png)
 
-![eReader zeigt ein PDF mit seinen Lesezeichen und den Symbolleisten-Buttons für Zoom, Anpassen, Drehen und Abdunkeln](docs/pdf.de.png)
+![eReader zeigt ein EPUB-Buch mit Inhaltsverzeichnis](docs/epub.de.png)
 
 ## Download und Installation
 
