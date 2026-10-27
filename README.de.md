@@ -27,6 +27,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Miniaturansichten für die Thumbnail-Ansicht des Total Commander (Cover oder erste Seite)
 - Helles und dunkles Design (automatisch wie Windows, wie Total Commander oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln
 - Seiten werden im Hintergrund gezeichnet: Der Lister bleibt bedienbar, auch bei großen Büchern
+- Buchinfo (Titel, Autor, Reihe, Verlag, Datum, Sprache, ISBN, Beschreibung, Datei) im Info-Dialog (F1) und im Kontextmenü
 - Tooltips an allen Symbolleisten-Buttons und an Links; der Info-Button sitzt in der Symbolleiste, das ganze Fenster dient dem Lesen
 - Oberfläche auf Deutsch und Englisch (richtet sich nach der Windows-Sprache)
 
