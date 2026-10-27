@@ -31,6 +31,8 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Tooltips on all toolbar buttons and on links; the info button sits in the toolbar, so the whole window is for reading
 - English and German user interface (follows the Windows language)
 
+![The info dialog with the book's title, author, series, publisher, ISBN and description](docs/about.png)
+
 ## Download and installation
 
 1. Download **`eReader.zip`** from the [latest release](https://github.com/naderi/tc-ereader/releases/latest).

@@ -31,6 +31,8 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Tooltips an allen Symbolleisten-Buttons und an Links; der Info-Button sitzt in der Symbolleiste, das ganze Fenster dient dem Lesen
 - Oberfläche auf Deutsch und Englisch (richtet sich nach der Windows-Sprache)
 
+![Der Info-Dialog mit Titel, Autor, Reihe, Verlag, ISBN und Beschreibung des Buchs](docs/about.de.png)
+
 ## Download und Installation
 
 1. **`eReader.zip`** aus der [neuesten Version](https://github.com/naderi/tc-ereader/releases/latest) herunterladen.
