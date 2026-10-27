@@ -22,6 +22,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Klickbare Links: Sprünge im Dokument, zurück mit Alt+Links, Webadressen öffnen sich im Browser
 - Gehe zu Seite oder Kapitel, Seitenzähler in der Werkzeugleiste, Position im Lister-Titel
 - PDF: Seitenbreite, ganze Seite, Originalgröße und freier Zoom; unterschiedlich große Seiten werden einzeln eingepasst
+- PDF und Comics: aktuelle Seite oder alle Seiten drehen (Strg+R), für gescannte Dokumente, die quer oder auf dem Kopf stehen
 - E-Books: größere und kleinere Schrift, wählbare Schriftart, schmale Textspalte, Bilder, Tabellen und Fußnoten
 - Text markieren und kopieren, auch in PDFs mit Textebene
 - Miniaturansichten für die Thumbnail-Ansicht des Total Commander (Cover oder erste Seite)
@@ -32,6 +33,8 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Oberfläche auf Deutsch und Englisch (richtet sich nach der Windows-Sprache)
 
 ![Der Info-Dialog mit Titel, Autor, Reihe, Verlag, ISBN und Beschreibung des Buchs](docs/about.de.png)
+
+![eReader zeigt ein PDF mit seinen Lesezeichen und den Symbolleisten-Buttons für Zoom, Anpassen, Drehen und Abdunkeln](docs/pdf.de.png)
 
 ## Download und Installation
 
@@ -49,6 +52,7 @@ Die Einstellungen liegen in `eReader.ini` neben dem Plugin (alle Schlüssel steh
 | Alt+Links | *Zurück* |
 | Strg+1 / Strg+2 / Strg+0 | PDF: *Seitenbreite* / *Ganze Seite* / *Originalgröße* |
 | Strg+Plus / Strg+Minus | PDF: *Vergrößern* / *Verkleinern* (auch Strg+Mausrad); E-Books: *Größere Schrift* / *Kleinere Schrift* |
+| Strg+R / Strg+Umschalt+R | PDF und Comics: aktuelle Seite / alle Seiten nach rechts *drehen* (mehr im Menü des *Drehen*-Buttons) |
 | Strg+D | *Seiten abdunkeln* (PDF im dunklen Design) |
 | Strg+A, Strg+C | *Alles markieren*, *Kopieren* |
 | F7 | Suchen (Suche des Total Commander) |

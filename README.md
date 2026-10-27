@@ -22,6 +22,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Clickable links: jumps within the document, back with Alt+Left, web addresses open in the browser
 - Go to page or chapter, page counter in the toolbar, position in the Lister title
 - PDF: fit width, fit page, actual size and free zoom; pages of different sizes are each fitted on their own
+- PDF and comics: rotate the current page or all pages (Ctrl+R), for scanned documents that are sideways or upside down
 - E-books: larger and smaller text, selectable font, narrow text column, pictures, tables and footnotes
 - Text selection and copying, also in PDFs with a text layer
 - Thumbnails for Total Commander's thumbnail view (cover or first page)
@@ -32,6 +33,8 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - English and German user interface (follows the Windows language)
 
 ![The info dialog with the book's title, author, series, publisher, ISBN and description](docs/about.png)
+
+![eReader showing a PDF with its bookmarks, with the zoom, fit, rotate and darken buttons in the toolbar](docs/pdf.png)
 
 ## Download and installation
 
@@ -49,6 +52,7 @@ Settings are stored in `eReader.ini` next to the plugin (all keys are described 
 | Alt+Left | *Back* |
 | Ctrl+1 / Ctrl+2 / Ctrl+0 | PDF: *Fit width* / *Fit page* / *Actual size* |
 | Ctrl+plus / Ctrl+minus | PDF: *Zoom in* / *Zoom out* (also Ctrl+mouse wheel); e-books: *Larger text* / *Smaller text* |
+| Ctrl+R / Ctrl+Shift+R | PDF and comics: *Rotate* the current page / all pages clockwise (more in the *Rotate* button's menu) |
 | Ctrl+D | *Darken pages* (PDF in dark mode) |
 | Ctrl+A, Ctrl+C | Select all, copy |
 | F7 | Find (Total Commander's search) |
