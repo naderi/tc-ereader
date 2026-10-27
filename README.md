@@ -38,7 +38,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 1. Download **`eReader.zip`** from the [latest release](https://github.com/naderi/tc-ereader/releases/latest).
 2. Open the ZIP in Total Commander (Enter on the file) and confirm the question whether to install the plugin.
 
-Settings are stored in `eReader.ini` next to the plugin. Requires Windows 10 or 11 (PDF pages are rendered by the PDF engine built into Windows).
+Settings are stored in `eReader.ini` next to the plugin (all keys are described in the [Settings](#settings) section and in `readme.txt` inside the ZIP). Requires Windows 10 or 11 (PDF pages are rendered by the PDF engine built into Windows).
 
 ## Keys
 
@@ -55,6 +55,21 @@ Settings are stored in `eReader.ini` next to the plugin. Requires Windows 10 or 
 | F1 | About |
 
 More options – *Theme*, *Font…*, *Narrow text column* – are in the context menu (right click).
+
+## Settings
+
+`eReader.ini` (section `[eReader]`) is created next to the plugin on first use. Most values can also be changed in the Lister; they are written back to the file.
+
+| Key | Values | Meaning |
+|---|---|---|
+| `Theme` | `0` automatic (default), `1` light, `2` dark, `3` like Total Commander only | `0` is dark if Total Commander or Windows is dark |
+| `ZoomMode` | `0` fit width, `1` fit page, `2` fixed zoom | PDF zoom |
+| `Zoom` | `10`–`800` (default `100`) | PDF zoom in percent, used with `ZoomMode=2` |
+| `Sidebar` | `1` / `0` | Show the table of contents |
+| `DarkPages` | `1` / `0` | Darken PDF pages in dark mode |
+| `BookFont` | font name, empty = default | E-book font |
+| `BookFontSize` | `6`–`40` (default `12`) | E-book text size in points |
+| `BookNarrow` | `1` / `0` | Narrow text column for e-books |
 
 ## License
 

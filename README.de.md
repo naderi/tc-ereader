@@ -38,7 +38,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 1. **`eReader.zip`** aus der [neuesten Version](https://github.com/naderi/tc-ereader/releases/latest) herunterladen.
 2. Die ZIP-Datei im Total Commander öffnen (Enter auf der Datei) und die Frage nach der Installation des Plugins bestätigen.
 
-Die Einstellungen liegen in `eReader.ini` neben dem Plugin. Voraussetzung ist Windows 10 oder 11 (PDF-Seiten zeichnet die in Windows eingebaute PDF-Engine).
+Die Einstellungen liegen in `eReader.ini` neben dem Plugin (alle Schlüssel stehen im Abschnitt [Einstellungen](#einstellungen) und in der `readme.txt` im ZIP). Voraussetzung ist Windows 10 oder 11 (PDF-Seiten zeichnet die in Windows eingebaute PDF-Engine).
 
 ## Tasten
 
@@ -55,6 +55,21 @@ Die Einstellungen liegen in `eReader.ini` neben dem Plugin. Voraussetzung ist Wi
 | F1 | Info |
 
 Weitere Optionen – *Design*, *Schriftart…*, *Schmale Textspalte* – stehen im Kontextmenü (Rechtsklick).
+
+## Einstellungen
+
+`eReader.ini` (Abschnitt `[eReader]`) wird beim ersten Start neben dem Plugin angelegt. Die meisten Werte lassen sich auch im Lister ändern und werden dann in die Datei zurückgeschrieben.
+
+| Schlüssel | Werte | Bedeutung |
+|---|---|---|
+| `Theme` | `0` automatisch (Standard), `1` hell, `2` dunkel, `3` nur wie Total Commander | `0` ist dunkel, wenn Total Commander oder Windows dunkel ist |
+| `ZoomMode` | `0` Breite anpassen, `1` Seite anpassen, `2` fester Zoom | PDF-Zoom |
+| `Zoom` | `10`–`800` (Standard `100`) | PDF-Zoom in Prozent, gilt bei `ZoomMode=2` |
+| `Sidebar` | `1` / `0` | Inhaltsverzeichnis anzeigen |
+| `DarkPages` | `1` / `0` | PDF-Seiten im dunklen Design abdunkeln |
+| `BookFont` | Schriftname, leer = Standard | Schrift für E-Books |
+| `BookFontSize` | `6`–`40` (Standard `12`) | Textgröße für E-Books in Punkt |
+| `BookNarrow` | `1` / `0` | Schmale Textspalte für E-Books |
 
 ## Lizenz
 
