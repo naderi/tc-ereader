@@ -3,7 +3,7 @@
 [English](README.md) | **Deutsch**
 
 Ein Betrachter für PDF, E-Books und Comics (Lister-Plugin) für den [Total Commander](https://www.ghisler.com), 32 und 64 Bit.
-F3 auf einer PDF-, EPUB-, FB2-, MOBI/AZW3- oder Comic-Datei (CBZ, CBR, CB7), und sie lässt sich direkt lesen – schnell und sparsam, mit Inhaltsverzeichnis, Textsuche, Links und dunklem Design.
+F3 auf einer PDF-, EPUB-, FB2/FB3-, MOBI/AZW3- oder Comic-Datei (CBZ, CBR, CB7, CBT), und sie lässt sich direkt lesen – schnell und sparsam, mit Inhaltsverzeichnis, Textsuche, Links und dunklem Design.
 PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer angenehmen Lesespalte gesetzt. Nativ, keine Laufzeitumgebung, nichts zu installieren außer dem Plugin.
 
 ![eReader zeigt ein PDF mit seinen Lesezeichen und den Symbolleisten-Buttons für Zoom, Anpassen, Drehen und Abdunkeln](docs/screenshot.de.png)
@@ -12,9 +12,9 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 
 - **PDF:** `.pdf` – auch kennwortgeschützte und beschädigte Dateien
 - **EPUB:** `.epub`, `.kepub`
-- **FictionBook:** `.fb2`, `.fbz`
+- **FictionBook:** `.fb2`, `.fbz`, `.fb3`
 - **Mobipocket und Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC; Bücher mit Kopierschutz (DRM) können nicht angezeigt werden
-- **Comics:** `.cbz`, `.cbr`, `.cb7` – CBR und CB7 nutzen die UnRAR- und 7-Zip-Bibliotheken des Total Commanders (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` für 32 Bit)
+- **Comics:** `.cbz`, `.cbr`, `.cb7`, `.cbt` – CBR und CB7 nutzen die UnRAR- und 7-Zip-Bibliotheken des Total Commanders (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` für 32 Bit)
 
 ## Funktionen
 
@@ -55,6 +55,7 @@ Die Einstellungen liegen in `eReader.ini` neben dem Plugin (alle Schlüssel steh
 | Strg+R / Strg+Umschalt+R | PDF und Comics: aktuelle Seite / alle Seiten nach rechts *drehen* (mehr im Menü des *Drehen*-Buttons) |
 | Strg+D | *Seiten abdunkeln* (PDF im dunklen Design) |
 | Strg+A, Strg+C | *Alles markieren*, *Kopieren* |
+| Strg+K | *Textcursor* ein/aus (wie Caret-Navigation im Browser): Pfeiltasten, Pos1/Ende, Bild auf/ab und Strg+Pfeile bewegen ihn durch den Text, Umschalt erweitert die Markierung (PDF und E-Books); die Wahl wird gemerkt, Dateien öffnen dann mit Textcursor |
 | F7 | Suchen (Suche des Total Commander) |
 | F1 | Info |
 

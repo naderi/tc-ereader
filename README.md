@@ -3,7 +3,7 @@
 **English** | [Deutsch](README.de.md)
 
 A PDF, e-book and comic book viewer (Lister plugin) for [Total Commander](https://www.ghisler.com), 32 and 64 bit.
-Press F3 on a PDF, EPUB, FB2, MOBI/AZW3 or comic book (CBZ, CBR, CB7) file and read it right there – fast and with little memory, with table of contents, text search, links and a dark design.
+Press F3 on a PDF, EPUB, FB2/FB3, MOBI/AZW3 or comic book (CBZ, CBR, CB7, CBT) file and read it right there – fast and with little memory, with table of contents, text search, links and a dark design.
 PDF pages are rendered by Windows itself, e-books are laid out as flowing text in a comfortable reading column. Native, no runtime, nothing to install besides the plugin.
 
 ![eReader showing a PDF with its bookmarks, with the zoom, fit, rotate and darken buttons in the toolbar](docs/screenshot.png)
@@ -12,9 +12,9 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 
 - **PDF:** `.pdf` – also password-protected and damaged files
 - **EPUB:** `.epub`, `.kepub`
-- **FictionBook:** `.fb2`, `.fbz`
+- **FictionBook:** `.fb2`, `.fbz`, `.fb3`
 - **Mobipocket and Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC; books with DRM cannot be shown
-- **Comic books:** `.cbz`, `.cbr`, `.cb7` – CBR and CB7 use the UnRAR and 7-Zip libraries of Total Commander (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` for 32 bit)
+- **Comic books:** `.cbz`, `.cbr`, `.cb7`, `.cbt` – CBR and CB7 use the UnRAR and 7-Zip libraries of Total Commander (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` for 32 bit)
 
 ## Features
 
@@ -55,6 +55,7 @@ Settings are stored in `eReader.ini` next to the plugin (all keys are described 
 | Ctrl+R / Ctrl+Shift+R | PDF and comics: *Rotate* the current page / all pages clockwise (more in the *Rotate* button's menu) |
 | Ctrl+D | *Darken pages* (PDF in dark mode) |
 | Ctrl+A, Ctrl+C | Select all, copy |
+| Ctrl+K | *Text cursor* on/off (like caret browsing in browsers): arrow keys, Home/End, Page Up/Down and Ctrl+arrows move it through the text, Shift extends the selection (PDF and e-books); the choice is remembered, so files open with the cursor on |
 | F7 | Find (Total Commander's search) |
 | F1 | About |
 
