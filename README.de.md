@@ -13,7 +13,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - **PDF:** `.pdf` – auch kennwortgeschützte und beschädigte Dateien
 - **EPUB:** `.epub`, `.kepub`
 - **FictionBook:** `.fb2`, `.fbz`, `.fb3`
-- **Mobipocket und Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC; Bücher mit Kopierschutz (DRM) können nicht angezeigt werden
+- **Mobipocket und Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC, eReader (ungeschützt, als reiner Text); Bücher mit Kopierschutz (DRM) können nicht angezeigt werden
 - **Comics:** `.cbz`, `.cbr`, `.cb7`, `.cbt` – CBR und CB7 nutzen die UnRAR- und 7-Zip-Bibliotheken des Total Commanders (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` für 32 Bit)
 
 ## Funktionen
@@ -29,7 +29,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Helles und dunkles Design (automatisch wie Windows, wie Total Commander oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln
 - Seiten werden im Hintergrund gezeichnet: Der Lister bleibt bedienbar, auch bei großen Büchern
 - Buchinfo (Titel, Autor, Reihe, Verlag, Datum, Sprache, ISBN, Beschreibung, Datei) im Info-Dialog (F1) und im Kontextmenü
-- Tooltips an allen Symbolleisten-Buttons und an Links; der Info-Button sitzt in der Symbolleiste, das ganze Fenster dient dem Lesen
+- Tooltips an allen Symbolleisten-Buttons und an Links; der Info-Button sitzt in der Symbolleiste, das ganze Fenster dient dem Lesen; die Knöpfe lassen sich auch in eine Statusleiste unten verschieben oder ausblenden (*Knöpfe* im Kontextmenü)
 - Oberfläche auf Deutsch und Englisch (richtet sich nach der Windows-Sprache)
 
 ![Der Info-Dialog mit Titel, Autor, Reihe, Verlag, ISBN und Beschreibung des Buchs](docs/about.de.png)
@@ -59,7 +59,7 @@ Die Einstellungen liegen in `eReader.ini` neben dem Plugin (alle Schlüssel steh
 | F7 | Suchen (Suche des Total Commander) |
 | F1 | Info |
 
-Weitere Optionen – *Design*, *Schriftart…*, *Schmale Textspalte* – stehen im Kontextmenü (Rechtsklick).
+Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte* – stehen im Kontextmenü (Rechtsklick).
 
 ## Einstellungen
 
@@ -70,6 +70,7 @@ Weitere Optionen – *Design*, *Schriftart…*, *Schmale Textspalte* – stehen 
 | `Theme` | `0` automatisch (Standard), `1` hell, `2` dunkel, `3` nur wie Total Commander | `0` ist dunkel, wenn Total Commander oder Windows dunkel ist |
 | `ZoomMode` | `0` Breite anpassen, `1` Seite anpassen, `2` fester Zoom | PDF-Zoom |
 | `Zoom` | `10`–`800` (Standard `100`) | PDF-Zoom in Prozent, gilt bei `ZoomMode=2` |
+| `Buttons` | `1` oben (Standard), `2` Statusleiste, `0` ausgeblendet | Wo die Knöpfe der Leiste sitzen |
 | `Sidebar` | `1` / `0` | Inhaltsverzeichnis anzeigen |
 | `DarkPages` | `1` / `0` | PDF-Seiten im dunklen Design abdunkeln |
 | `BookFont` | Schriftname, leer = Standard | Schrift für E-Books |

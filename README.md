@@ -13,7 +13,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - **PDF:** `.pdf` – also password-protected and damaged files
 - **EPUB:** `.epub`, `.kepub`
 - **FictionBook:** `.fb2`, `.fbz`, `.fb3`
-- **Mobipocket and Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC; books with DRM cannot be shown
+- **Mobipocket and Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC, eReader (unprotected, as plain text); books with DRM cannot be shown
 - **Comic books:** `.cbz`, `.cbr`, `.cb7`, `.cbt` – CBR and CB7 use the UnRAR and 7-Zip libraries of Total Commander (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` for 32 bit)
 
 ## Features
@@ -29,7 +29,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too
 - Pages are rendered in the background: the Lister stays responsive, even with large books
 - Book info (title, author, series, publisher, date, language, ISBN, description, file) in the info dialog (F1) and the context menu
-- Tooltips on all toolbar buttons and on links; the info button sits in the toolbar, so the whole window is for reading
+- Tooltips on all toolbar buttons and on links; the info button sits in the toolbar, so the whole window is for reading; the buttons can also move to a status bar at the bottom or be hidden (*Buttons* in the context menu)
 - English and German user interface (follows the Windows language)
 
 ![The info dialog with the book's title, author, series, publisher, ISBN and description](docs/about.png)
@@ -59,7 +59,7 @@ Settings are stored in `eReader.ini` next to the plugin (all keys are described 
 | F7 | Find (Total Commander's search) |
 | F1 | About |
 
-More options – *Theme*, *Font…*, *Narrow text column* – are in the context menu (right click).
+More options – *Theme*, *Buttons*, *Font…*, *Narrow text column* – are in the context menu (right click).
 
 ## Settings
 
@@ -70,6 +70,7 @@ More options – *Theme*, *Font…*, *Narrow text column* – are in the context
 | `Theme` | `0` automatic (default), `1` light, `2` dark, `3` like Total Commander only | `0` is dark if Total Commander or Windows is dark |
 | `ZoomMode` | `0` fit width, `1` fit page, `2` fixed zoom | PDF zoom |
 | `Zoom` | `10`–`800` (default `100`) | PDF zoom in percent, used with `ZoomMode=2` |
+| `Buttons` | `1` top (default), `2` status bar, `0` hidden | Where the toolbar buttons are |
 | `Sidebar` | `1` / `0` | Show the table of contents |
 | `DarkPages` | `1` / `0` | Darken PDF pages in dark mode |
 | `BookFont` | font name, empty = default | E-book font |
