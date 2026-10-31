@@ -53,6 +53,7 @@ Die Einstellungen liegen in `eReader.ini` neben dem Plugin (alle Schlüssel steh
 | Strg+1 / Strg+2 / Strg+0 | PDF: *Seitenbreite* / *Ganze Seite* / *Originalgröße* |
 | Strg+Plus / Strg+Minus | PDF: *Vergrößern* / *Verkleinern* (auch Strg+Mausrad); E-Books: *Größere Schrift* / *Kleinere Schrift* |
 | Strg+R / Strg+Umschalt+R | PDF und Comics: aktuelle Seite / alle Seiten nach rechts *drehen* (mehr im Menü des *Drehen*-Buttons) |
+| Strg+3 | PDF und Comics: *Fortlaufendes Scrollen* ein/aus (auch als Button in der Werkzeugleiste, nur bei *Ganze Seite*); ausgeschaltet wird eine Seite nach der anderen gezeigt und Mausrad und Pfeiltasten blättern am Seitenrand weiter |
 | Strg+D | *Seiten abdunkeln* (PDF im dunklen Design) |
 | Strg+A, Strg+C | *Alles markieren*, *Kopieren* |
 | Strg+K | *Textcursor* ein/aus (wie Caret-Navigation im Browser): Pfeiltasten, Pos1/Ende, Bild auf/ab und Strg+Pfeile bewegen ihn durch den Text, Umschalt erweitert die Markierung (PDF und E-Books); die Wahl wird gemerkt, Dateien öffnen dann mit Textcursor |

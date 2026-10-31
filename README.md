@@ -53,6 +53,7 @@ Settings are stored in `eReader.ini` next to the plugin (all keys are described 
 | Ctrl+1 / Ctrl+2 / Ctrl+0 | PDF: *Fit width* / *Fit page* / *Actual size* |
 | Ctrl+plus / Ctrl+minus | PDF: *Zoom in* / *Zoom out* (also Ctrl+mouse wheel); e-books: *Larger text* / *Smaller text* |
 | Ctrl+R / Ctrl+Shift+R | PDF and comics: *Rotate* the current page / all pages clockwise (more in the *Rotate* button's menu) |
+| Ctrl+3 | PDF and comics: *Continuous scrolling* on/off (also a button in the toolbar, only with *Fit page*); when off, one page is shown at a time and the wheel and arrow keys turn the page at its edge |
 | Ctrl+D | *Darken pages* (PDF in dark mode) |
 | Ctrl+A, Ctrl+C | Select all, copy |
 | Ctrl+K | *Text cursor* on/off (like caret browsing in browsers): arrow keys, Home/End, Page Up/Down and Ctrl+arrows move it through the text, Shift extends the selection (PDF and e-books); the choice is remembered, so files open with the cursor on |
