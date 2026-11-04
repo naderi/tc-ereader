@@ -25,7 +25,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - PDF und Comics: aktuelle Seite oder alle Seiten drehen (Strg+R), für gescannte Dokumente, die quer oder auf dem Kopf stehen
 - E-Books: größere und kleinere Schrift, wählbare Schriftart, schmale Textspalte, Bilder, Tabellen und Fußnoten
 - Text markieren und kopieren, auch in PDFs mit Textebene
-- Merkt sich, wo du aufgehört hast: eine Datei öffnet wieder auf der Seite (PDF, Comics) bzw. im Kapitel (E-Books), die du zuletzt gelesen hast; abschaltbar mit `RememberPage=0`
+- Merkt sich, wo du aufgehört hast: eine Datei öffnet wieder auf der Seite (PDF, Comics) bzw. im Kapitel (E-Books), die du zuletzt gelesen hast; die Positionen liegen in `eReader_history.ini` neben der `eReader.ini`; abschaltbar mit `RememberPage=0`
 - Drucken (Datei > Drucken): PDF- und Comic-Seiten eingepasst aufs Papier, E-Books Kapitel für Kapitel im Drucklayout; Seitenbereiche (z. B. `3-5,9`), bei PDF und Comics mit der angezeigten Seite vorbelegt
 - Miniaturansichten für die Thumbnail-Ansicht des Total Commander (Cover oder erste Seite)
 - Helles und dunkles Design (automatisch wie Windows, wie Total Commander oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln
