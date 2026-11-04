@@ -25,6 +25,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - PDF and comics: rotate the current page or all pages (Ctrl+R), for scanned documents that are sideways or upside down
 - E-books: larger and smaller text, selectable font, narrow text column, pictures, tables and footnotes
 - Text selection and copying, also in PDFs with a text layer
+- Remembers where you stopped: a file reopens at the page (PDF, comics) or chapter (e-books) you were reading; can be switched off with `RememberPage=0`
 - Printing (File > Print): PDF and comic pages fitted to the paper, e-books chapter by chapter in print layout; page ranges (e.g. `3-5,9`), preset to the shown page in PDFs and comics
 - Thumbnails for Total Commander's thumbnail view (cover or first page)
 - Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too
