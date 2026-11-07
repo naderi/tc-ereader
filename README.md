@@ -25,7 +25,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - PDF and comics: rotate the current page or all pages (Ctrl+R), for scanned documents that are sideways or upside down
 - E-books: larger and smaller text, selectable font, narrow text column, pictures, tables and footnotes
 - Text selection and copying, also in PDFs with a text layer
-- Optional search box in the toolbar with arrows for the previous and next match (`Search=1`), or a search button that shows it (`Search=2`); Enter = next, Shift+Enter = previous, Ctrl+F jumps to it (another key with `SearchKey=`, e.g. `SearchKey=Ctrl+Shift+F`; empty = leave Ctrl+F to Total Commander)
+- Optional search box in the toolbar with arrows for the previous and next match (`Search=1`), or a search button that shows it (`Search=2`); Enter = next, Shift+Enter = previous, Ctrl+F jumps to it, the `.*` button searches with regular expressions (remembered as `SearchRegex=`) (another key with `SearchKey=`, e.g. `SearchKey=Ctrl+Shift+F`; empty = leave Ctrl+F to Total Commander)
 - Remembers where you stopped: a file reopens at the page (PDF, comics) or chapter (e-books) you were reading; positions are kept in `eReader_history.ini` next to `eReader.ini` (move it with `HistoryFile=`); can be switched off with `RememberPage=0`
 - Printing (File > Print): PDF and comic pages fitted to the paper, e-books chapter by chapter in print layout; page ranges (e.g. `3-5,9`), preset to the shown page in PDFs and comics
 - Thumbnails for Total Commander's thumbnail view (cover or first page)

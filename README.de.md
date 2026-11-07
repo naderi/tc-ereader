@@ -25,7 +25,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - PDF und Comics: aktuelle Seite oder alle Seiten drehen (Strg+R), für gescannte Dokumente, die quer oder auf dem Kopf stehen
 - E-Books: größere und kleinere Schrift, wählbare Schriftart, schmale Textspalte, Bilder, Tabellen und Fußnoten
 - Text markieren und kopieren, auch in PDFs mit Textebene
-- Optionales Suchfeld in der Symbolleiste mit Pfeilen für den vorherigen und nächsten Treffer (`Search=1`) oder ein Such-Knopf, der es einblendet (`Search=2`); Eingabe = weiter, Umschalt+Eingabe = zurück, Strg+F springt hinein (andere Taste mit `SearchKey=`, z. B. `SearchKey=Ctrl+Shift+F`; leer = Strg+F bleibt beim Total Commander)
+- Optionales Suchfeld in der Symbolleiste mit Pfeilen für den vorherigen und nächsten Treffer (`Search=1`) oder ein Such-Knopf, der es einblendet (`Search=2`); Eingabe = weiter, Umschalt+Eingabe = zurück, Strg+F springt hinein, der `.*`-Knopf sucht mit regulären Ausdrücken (gemerkt als `SearchRegex=`) (andere Taste mit `SearchKey=`, z. B. `SearchKey=Ctrl+Shift+F`; leer = Strg+F bleibt beim Total Commander)
 - Merkt sich, wo du aufgehört hast: eine Datei öffnet wieder auf der Seite (PDF, Comics) bzw. im Kapitel (E-Books), die du zuletzt gelesen hast; die Positionen liegen in `eReader_history.ini` neben der `eReader.ini` (verschiebbar mit `HistoryFile=`); abschaltbar mit `RememberPage=0`
 - Drucken (Datei > Drucken): PDF- und Comic-Seiten eingepasst aufs Papier, E-Books Kapitel für Kapitel im Drucklayout; Seitenbereiche (z. B. `3-5,9`), bei PDF und Comics mit der angezeigten Seite vorbelegt
 - Miniaturansichten für die Thumbnail-Ansicht des Total Commander (Cover oder erste Seite)
