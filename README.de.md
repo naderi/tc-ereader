@@ -29,7 +29,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Merkt sich, wo du aufgehört hast: eine Datei öffnet wieder auf der Seite (PDF, Comics) bzw. im Kapitel (E-Books), die du zuletzt gelesen hast; die Positionen liegen in `eReader_history.ini` neben der `eReader.ini` (verschiebbar mit `HistoryFile=`); abschaltbar mit `RememberPage=0`
 - Drucken (Datei > Drucken): PDF- und Comic-Seiten eingepasst aufs Papier, E-Books Kapitel für Kapitel im Drucklayout; Seitenbereiche (z. B. `3-5,9`), bei PDF und Comics mit der angezeigten Seite vorbelegt
 - Miniaturansichten für die Thumbnail-Ansicht des Total Commander (Cover oder erste Seite)
-- Helles und dunkles Design (automatisch wie Windows, wie Total Commander oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln
+- Helles und dunkles Design (automatisch wie Windows, wie Total Commander oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln, auf Wunsch mit Farbbildern in ihren Originalfarben (`KeepImages=1` oder *Bilder in Originalfarben* im Kontextmenü)
 - Seiten werden im Hintergrund gezeichnet: Der Lister bleibt bedienbar, auch bei großen Büchern
 - Buchinfo (Titel, Autor, Reihe, Verlag, Datum, Sprache, ISBN, Beschreibung, Datei) im Info-Dialog (F1) und im Kontextmenü
 - Tooltips an allen Symbolleisten-Buttons und an Links; der Info-Button sitzt in der Symbolleiste, das ganze Fenster dient dem Lesen; die Knöpfe lassen sich auch in eine Statusleiste unten verschieben oder ausblenden (*Knöpfe* im Kontextmenü)
@@ -77,6 +77,7 @@ Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte* 
 | `Buttons` | `1` oben (Standard), `2` Statusleiste, `0` ausgeblendet | Wo die Knöpfe der Leiste sitzen |
 | `Sidebar` | `1` / `0` | Inhaltsverzeichnis anzeigen |
 | `DarkPages` | `1` / `0` | PDF-Seiten im dunklen Design abdunkeln |
+| `KeepImages` | `1` / `0` (Standard `0`) | Farbbilder in PDFs behalten auf dunklen Seiten ihre Originalfarben |
 | `BookFont` | Schriftname, leer = Standard | Schrift für E-Books |
 | `BookFontSize` | `6`–`40` (Standard `12`) | Textgröße für E-Books in Punkt |
 | `BookNarrow` | `1` / `0` | Schmale Textspalte für E-Books |

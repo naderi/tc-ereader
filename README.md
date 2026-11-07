@@ -29,7 +29,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Remembers where you stopped: a file reopens at the page (PDF, comics) or chapter (e-books) you were reading; positions are kept in `eReader_history.ini` next to `eReader.ini` (move it with `HistoryFile=`); can be switched off with `RememberPage=0`
 - Printing (File > Print): PDF and comic pages fitted to the paper, e-books chapter by chapter in print layout; page ranges (e.g. `3-5,9`), preset to the shown page in PDFs and comics
 - Thumbnails for Total Commander's thumbnail view (cover or first page)
-- Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too
+- Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too, optionally with colour pictures kept in their original colours (`KeepImages=1` or *Pictures in original colours* in the context menu)
 - Pages are rendered in the background: the Lister stays responsive, even with large books
 - Book info (title, author, series, publisher, date, language, ISBN, description, file) in the info dialog (F1) and the context menu
 - Tooltips on all toolbar buttons and on links; the info button sits in the toolbar, so the whole window is for reading; the buttons can also move to a status bar at the bottom or be hidden (*Buttons* in the context menu)
@@ -77,6 +77,7 @@ More options – *Theme*, *Buttons*, *Font…*, *Narrow text column* – are in 
 | `Buttons` | `1` top (default), `2` status bar, `0` hidden | Where the toolbar buttons are |
 | `Sidebar` | `1` / `0` | Show the table of contents |
 | `DarkPages` | `1` / `0` | Darken PDF pages in dark mode |
+| `KeepImages` | `1` / `0` (default `0`) | Colour pictures in PDFs keep their original colours on dark pages |
 | `BookFont` | font name, empty = default | E-book font |
 | `BookFontSize` | `6`–`40` (default `12`) | E-book text size in points |
 | `BookNarrow` | `1` / `0` | Narrow text column for e-books |
