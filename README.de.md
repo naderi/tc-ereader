@@ -25,7 +25,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - PDF und Comics: aktuelle Seite oder alle Seiten drehen (Strg+R), für gescannte Dokumente, die quer oder auf dem Kopf stehen
 - E-Books: größere und kleinere Schrift, wählbare Schriftart, schmale Textspalte, Bilder, Tabellen und Fußnoten
 - Text markieren und kopieren, auch in PDFs mit Textebene
-- Optionales Suchfeld in der Symbolleiste mit Pfeilen für den vorherigen und nächsten Treffer (`Search=1`) oder ein Such-Knopf, der es einblendet (`Search=2`); Eingabe = weiter, Umschalt+Eingabe = zurück, Strg+F springt hinein
+- Optionales Suchfeld in der Symbolleiste mit Pfeilen für den vorherigen und nächsten Treffer (`Search=1`) oder ein Such-Knopf, der es einblendet (`Search=2`); Eingabe = weiter, Umschalt+Eingabe = zurück, Strg+F springt hinein (andere Taste mit `SearchKey=`, z. B. `SearchKey=Ctrl+Shift+F`; leer = Strg+F bleibt beim Total Commander)
 - Merkt sich, wo du aufgehört hast: eine Datei öffnet wieder auf der Seite (PDF, Comics) bzw. im Kapitel (E-Books), die du zuletzt gelesen hast; die Positionen liegen in `eReader_history.ini` neben der `eReader.ini` (verschiebbar mit `HistoryFile=`); abschaltbar mit `RememberPage=0`
 - Drucken (Datei > Drucken): PDF- und Comic-Seiten eingepasst aufs Papier, E-Books Kapitel für Kapitel im Drucklayout; Seitenbereiche (z. B. `3-5,9`), bei PDF und Comics mit der angezeigten Seite vorbelegt
 - Miniaturansichten für die Thumbnail-Ansicht des Total Commander (Cover oder erste Seite)
@@ -75,6 +75,7 @@ Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte* 
 | `ZoomMode` | `0` Breite anpassen, `1` Seite anpassen, `2` fester Zoom | PDF-Zoom |
 | `Zoom` | `10`–`800` (Standard `100`) | PDF-Zoom in Prozent, gilt bei `ZoomMode=2` |
 | `Buttons` | `1` oben (Standard), `2` Statusleiste, `0` ausgeblendet | Wo die Knöpfe der Leiste sitzen |
+| `SearchKey` | Buchstabe oder Ziffer (Standard `F`), `Ctrl+Shift+F`, leer = keine | Tastenkürzel, das in das Suchfeld der Leiste springt |
 | `Sidebar` | `1` / `0` | Inhaltsverzeichnis anzeigen |
 | `DarkPages` | `1` / `0` | PDF-Seiten im dunklen Design abdunkeln |
 | `KeepImages` | `1` / `0` (Standard `0`) | Farbbilder in PDFs behalten auf dunklen Seiten ihre Originalfarben |

@@ -25,7 +25,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - PDF and comics: rotate the current page or all pages (Ctrl+R), for scanned documents that are sideways or upside down
 - E-books: larger and smaller text, selectable font, narrow text column, pictures, tables and footnotes
 - Text selection and copying, also in PDFs with a text layer
-- Optional search box in the toolbar with arrows for the previous and next match (`Search=1`), or a search button that shows it (`Search=2`); Enter = next, Shift+Enter = previous, Ctrl+F jumps to it
+- Optional search box in the toolbar with arrows for the previous and next match (`Search=1`), or a search button that shows it (`Search=2`); Enter = next, Shift+Enter = previous, Ctrl+F jumps to it (another key with `SearchKey=`, e.g. `SearchKey=Ctrl+Shift+F`; empty = leave Ctrl+F to Total Commander)
 - Remembers where you stopped: a file reopens at the page (PDF, comics) or chapter (e-books) you were reading; positions are kept in `eReader_history.ini` next to `eReader.ini` (move it with `HistoryFile=`); can be switched off with `RememberPage=0`
 - Printing (File > Print): PDF and comic pages fitted to the paper, e-books chapter by chapter in print layout; page ranges (e.g. `3-5,9`), preset to the shown page in PDFs and comics
 - Thumbnails for Total Commander's thumbnail view (cover or first page)
@@ -75,6 +75,7 @@ More options – *Theme*, *Buttons*, *Font…*, *Narrow text column* – are in 
 | `ZoomMode` | `0` fit width, `1` fit page, `2` fixed zoom | PDF zoom |
 | `Zoom` | `10`–`800` (default `100`) | PDF zoom in percent, used with `ZoomMode=2` |
 | `Buttons` | `1` top (default), `2` status bar, `0` hidden | Where the toolbar buttons are |
+| `SearchKey` | letter or digit (default `F`), `Ctrl+Shift+F`, empty = none | Shortcut that jumps to the toolbar search field |
 | `Sidebar` | `1` / `0` | Show the table of contents |
 | `DarkPages` | `1` / `0` | Darken PDF pages in dark mode |
 | `KeepImages` | `1` / `0` (default `0`) | Colour pictures in PDFs keep their original colours on dark pages |
