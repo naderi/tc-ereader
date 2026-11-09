@@ -23,7 +23,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Go to page or chapter, page counter in the toolbar, position in the Lister title
 - PDF: fit width, fit page, actual size and free zoom; pages of different sizes are each fitted on their own
 - PDF and comics: rotate the current page or all pages (Ctrl+R), for scanned documents that are sideways or upside down
-- E-books: larger and smaller text, selectable font, narrow text column, pictures, tables and footnotes
+- E-books: larger and smaller text, selectable font, narrow text column, pictures (also SVG and formulas), tables and footnotes; right-click a picture to copy it or save it as a file
 - Text selection and copying, also in PDFs with a text layer
 - Optional search box in the toolbar with arrows for the previous and next match (`Search=1`), or a search button that shows it (`Search=2`); Enter = next, Shift+Enter = previous, Ctrl+F jumps to it, the `.*` button searches with regular expressions (remembered as `SearchRegex=`) (another key with `SearchKey=`, e.g. `SearchKey=Ctrl+Shift+F`; empty = leave Ctrl+F to Total Commander)
 - Remembers where you stopped: a file reopens at the page (PDF, comics) or chapter (e-books) you were reading; positions are kept in `eReader_history.ini` next to `eReader.ini` (move it with `HistoryFile=`); can be switched off with `RememberPage=0`
@@ -31,7 +31,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Thumbnails for Total Commander's thumbnail view (cover or first page)
 - Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too, optionally with colour pictures kept in their original colours (`KeepImages=1` or *Pictures in original colours* in the context menu)
 - Pages are rendered in the background: the Lister stays responsive, even with large books
-- Book info (title, author, series, publisher, date, language, ISBN, description, file) in the info dialog (F1) and the context menu
+- Book info (title, author, series, publisher, date, language, ISBN, description, file) in the info dialog (F1) and the context menu, with the book's cover; the *Copy info* button (or Ctrl+C) copies it as text
 - Tooltips on all toolbar buttons and on links; the info button sits in the toolbar, so the whole window is for reading; the buttons can also move to a status bar at the bottom or be hidden (*Buttons* in the context menu)
 - English and German user interface (follows the Windows language)
 
