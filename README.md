@@ -32,7 +32,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Light and dark design (automatic like Windows, like Total Commander, or fixed) in the Windows 11 look; in dark mode PDF pages can be darkened too, optionally with colour pictures kept in their original colours (`KeepImages=1` or *Pictures in original colours* in the context menu)
 - Pages are rendered in the background: the Lister stays responsive, even with large books
 - Book info (title, author, series, publisher, date, language, ISBN, description, file) in the info dialog (F1) and the context menu, with the book's cover; the *Copy info* button (or Ctrl+C) copies it as text
-- Tooltips on all toolbar buttons and on links; the info button sits in the toolbar, so the whole window is for reading; the buttons can also move to a status bar at the bottom or be hidden (*Buttons* in the context menu)
+- Tooltips on all toolbar buttons and on links; hovering a footnote link in an e-book shows the note's text right there (`FootnotePreview=0` turns it off), Alt+Left or Backspace jumps back after a click; the info button sits in the toolbar, so the whole window is for reading; the buttons can also move to a status bar at the bottom or be hidden (*Buttons* in the context menu)
 - English and German user interface (follows the Windows language)
 
 ![The info dialog with the book's title, author, series, publisher, ISBN and description](docs/about.png)
@@ -82,6 +82,7 @@ More options – *Theme*, *Buttons*, *Font…*, *Narrow text column* – are in 
 | `BookFont` | font name, empty = default | E-book font |
 | `BookFontSize` | `6`–`40` (default `12`) | E-book text size in points |
 | `BookNarrow` | `1` / `0` | Narrow text column for e-books |
+| `FootnotePreview` | `1` / `0` (default `1`) | Hovering a link inside an e-book (footnote) shows the text of its target in the tooltip |
 
 ## License
 

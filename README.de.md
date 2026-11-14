@@ -32,7 +32,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Helles und dunkles Design (automatisch wie Windows, wie Total Commander oder fest) im Windows-11-Look; im dunklen Design lassen sich auch PDF-Seiten abdunkeln, auf Wunsch mit Farbbildern in ihren Originalfarben (`KeepImages=1` oder *Bilder in Originalfarben* im Kontextmenü)
 - Seiten werden im Hintergrund gezeichnet: Der Lister bleibt bedienbar, auch bei großen Büchern
 - Buchinfo (Titel, Autor, Reihe, Verlag, Datum, Sprache, ISBN, Beschreibung, Datei) im Info-Dialog (F1) und im Kontextmenü, mit dem Cover des Buchs; der Knopf *Info kopieren* (oder Strg+C) kopiert sie als Text
-- Tooltips an allen Symbolleisten-Buttons und an Links; der Info-Button sitzt in der Symbolleiste, das ganze Fenster dient dem Lesen; die Knöpfe lassen sich auch in eine Statusleiste unten verschieben oder ausblenden (*Knöpfe* im Kontextmenü)
+- Tooltips an allen Symbolleisten-Buttons und an Links; fährt man in einem E-Book über einen Fußnoten-Link, zeigt der Tooltip gleich den Text der Fußnote (`FootnotePreview=0` schaltet das ab), nach einem Klick springt Alt+Links oder die Rücktaste zurück; der Info-Button sitzt in der Symbolleiste, das ganze Fenster dient dem Lesen; die Knöpfe lassen sich auch in eine Statusleiste unten verschieben oder ausblenden (*Knöpfe* im Kontextmenü)
 - Oberfläche auf Deutsch und Englisch (richtet sich nach der Windows-Sprache)
 
 ![Der Info-Dialog mit Titel, Autor, Reihe, Verlag, ISBN und Beschreibung des Buchs](docs/about.de.png)
@@ -82,6 +82,7 @@ Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte* 
 | `BookFont` | Schriftname, leer = Standard | Schrift für E-Books |
 | `BookFontSize` | `6`–`40` (Standard `12`) | Textgröße für E-Books in Punkt |
 | `BookNarrow` | `1` / `0` | Schmale Textspalte für E-Books |
+| `FootnotePreview` | `1` / `0` (Standard `1`) | Über einem Link im E-Book (Fußnote) zeigt der Tooltip den Text des Ziels |
 
 ## Lizenz
 
