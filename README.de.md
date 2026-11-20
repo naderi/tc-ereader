@@ -53,9 +53,9 @@ Die Einstellungen liegen in `eReader.ini` neben dem Plugin (alle Schlüssel steh
 | F12 oder Strg+T | *Inhaltsverzeichnis* (Seitenleiste) |
 | Strg+G | *Gehe zu Seite…* / *Gehe zu Kapitel…* |
 | Alt+Links | *Zurück* |
-| Strg+1 / Strg+2 / Strg+0 | PDF: *Seitenbreite* / *Ganze Seite* / *Originalgröße* |
-| Strg+Plus / Strg+Minus | PDF: *Vergrößern* / *Verkleinern* (auch Strg+Mausrad); E-Books: *Größere Schrift* / *Kleinere Schrift* |
-| Strg+R / Strg+Umschalt+R | PDF und Comics: aktuelle Seite / alle Seiten nach rechts *drehen* (mehr im Menü des *Drehen*-Buttons) |
+| Strg+1 / Strg+2 / Strg+0 | PDF: *Seitenbreite* / *Ganze Seite* / *Originalgröße* (die Ziffern des Zahlenblocks gehen auch) |
+| Plus / Minus (mit oder ohne Strg, auch Zahlenblock) | PDF: *Vergrößern* / *Verkleinern* (auch Strg+Mausrad); E-Books: *Größere Schrift* / *Kleinere Schrift* |
+| Strg+R / Strg+L, mit Umschalt für alle Seiten | PDF und Comics: *Drehen* nach rechts / nach links; `*` und `/` im Zahlenblock drehen die aktuelle Seite (mehr im Menü des *Drehen*-Buttons) |
 | Strg+3 | PDF und Comics: *Fortlaufendes Scrollen* ein/aus (auch als Button in der Werkzeugleiste, nicht bei *Seitenbreite*); ausgeschaltet wird eine Seite nach der anderen gezeigt, Zoomen vergrößert oder verkleinert diese Seite, und Mausrad und Pfeiltasten blättern am Seitenrand weiter |
 | Strg+D | *Seiten abdunkeln* (PDF im dunklen Design) |
 | Strg+A, Strg+C | *Alles markieren*, *Kopieren* |

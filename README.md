@@ -53,9 +53,9 @@ Settings are stored in `eReader.ini` next to the plugin (all keys are described 
 | F12 or Ctrl+T | *Contents* (sidebar) |
 | Ctrl+G | *Go to page…* / *Go to chapter…* |
 | Alt+Left | *Back* |
-| Ctrl+1 / Ctrl+2 / Ctrl+0 | PDF: *Fit width* / *Fit page* / *Actual size* |
-| Ctrl+plus / Ctrl+minus | PDF: *Zoom in* / *Zoom out* (also Ctrl+mouse wheel); e-books: *Larger text* / *Smaller text* |
-| Ctrl+R / Ctrl+Shift+R | PDF and comics: *Rotate* the current page / all pages clockwise (more in the *Rotate* button's menu) |
+| Ctrl+1 / Ctrl+2 / Ctrl+0 | PDF: *Fit width* / *Fit page* / *Actual size* (the numpad digits work too) |
+| plus / minus (with or without Ctrl, numpad too) | PDF: *Zoom in* / *Zoom out* (also Ctrl+mouse wheel); e-books: *Larger text* / *Smaller text* |
+| Ctrl+R / Ctrl+L, with Shift for all pages | PDF and comics: *Rotate* the current page / all pages clockwise / counter-clockwise; numpad `*` and `/` rotate the current page (more in the *Rotate* button's menu) |
 | Ctrl+3 | PDF and comics: *Continuous scrolling* on/off (also a button in the toolbar, not with *Fit width*); when off, one page is shown at a time, zooming enlarges or shrinks that page, and the wheel and arrow keys turn the page at its edge |
 | Ctrl+D | *Darken pages* (PDF in dark mode) |
 | Ctrl+A, Ctrl+C | Select all, copy |
