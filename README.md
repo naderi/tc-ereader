@@ -3,7 +3,7 @@
 **English** | [Deutsch](README.de.md)
 
 A PDF, e-book and comic book viewer (Lister plugin) for [Total Commander](https://www.ghisler.com), 32 and 64 bit.
-Press F3 on a PDF, EPUB, FB2/FB3, MOBI/AZW3 or comic book (CBZ, CBR, CB7, CBT) file and read it right there – fast and with little memory, with table of contents, text search, links and a dark design.
+Press F3 on a PDF, EPUB, FB2/FB3, MOBI/AZW3, DOCX, ODT, RTF or comic book (CBZ, CBR, CB7, CBT) file and read it right there – fast and with little memory, with table of contents, text search, links and a dark design.
 PDF pages are rendered by Windows itself, e-books are laid out as flowing text in a comfortable reading column. Native, no runtime, nothing to install besides the plugin.
 
 ![eReader showing a PDF with its bookmarks, with the zoom, fit, rotate and darken buttons in the toolbar](docs/screenshot.png)
@@ -14,6 +14,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - **EPUB:** `.epub`, `.kepub`
 - **FictionBook:** `.fb2`, `.fbz`, `.fb3`
 - **Mobipocket and Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC, eReader (unprotected, as plain text); books with DRM cannot be shown
+- **Text documents:** `.docx`, `.docm` (Word), `.odt` (OpenDocument), `.rtf` – shown as a flowing book with headings, lists, tables, footnotes and pictures; this is a reader, not a Word replacement: the original formatting (page layout, columns, fonts, headers and footers) is not reproduced
 - **Comic books:** `.cbz`, `.cbr`, `.cb7`, `.cbt` – CBR and CB7 use the UnRAR and 7-Zip libraries of Total Commander (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` for 32 bit)
 
 ## Features
@@ -23,7 +24,7 @@ PDF pages are rendered by Windows itself, e-books are laid out as flowing text i
 - Go to page or chapter, page counter in the toolbar, position in the Lister title
 - PDF: fit width, fit page, actual size and free zoom; pages of different sizes are each fitted on their own
 - PDF and comics: rotate the current page or all pages (Ctrl+R), for scanned documents that are sideways or upside down
-- E-books: larger and smaller text, selectable font, narrow text column, pictures (also SVG and formulas), tables and footnotes; right-click a picture to copy it or save it as a file
+- E-books: larger and smaller text, selectable font, narrow text column, optional justified text and paragraph indent, pictures (also SVG and formulas), tables and footnotes; right-click a picture to copy it or save it as a file
 - Text selection and copying, also in PDFs with a text layer
 - Optional search box in the toolbar with arrows for the previous and next match (`Search=1`), or a search button that shows it (`Search=2`); Enter = next, Shift+Enter = previous, Ctrl+F jumps to it, the `.*` button searches with regular expressions (remembered as `SearchRegex=`) (another key with `SearchKey=`, e.g. `SearchKey=Ctrl+Shift+F`; empty = leave Ctrl+F to Total Commander)
 - Remembers where you stopped: a file reopens at the page (PDF, comics) or chapter (e-books) you were reading; positions are kept in `eReader_history.ini` next to `eReader.ini` (move it with `HistoryFile=`); can be switched off with `RememberPage=0`
@@ -63,7 +64,7 @@ Settings are stored in `eReader.ini` next to the plugin (all keys are described 
 | F7 | Find (Total Commander's search) |
 | F1 | About |
 
-More options – *Theme*, *Buttons*, *Font…*, *Narrow text column* – are in the context menu (right click).
+More options – *Theme*, *Buttons*, *Font…*, *Narrow text column*, *Justify text*, *Paragraph indent* – are in the context menu (right click).
 
 ## Settings
 
@@ -82,6 +83,8 @@ More options – *Theme*, *Buttons*, *Font…*, *Narrow text column* – are in 
 | `BookFont` | font name, empty = default | E-book font |
 | `BookFontSize` | `6`–`40` (default `12`) | E-book text size in points |
 | `BookNarrow` | `1` / `0` | Narrow text column for e-books |
+| `Justify` | `0` as the book says (default), `1` justify all text, `2` never | Justified text in e-books and documents (*Justify text* in the context menu switches between `0` and `1`) |
+| `ParaIndent` | `0`–`100` (default `0`) | First-line indent of paragraphs in tenths of an em, e.g. `15` = 1.5 em (*Paragraph indent* in the context menu switches between `0` and `15`) |
 | `FootnotePreview` | `1` / `0` (default `1`) | Hovering a link inside an e-book (footnote) shows the text of its target in the tooltip |
 
 ## License

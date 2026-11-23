@@ -3,7 +3,7 @@
 [English](README.md) | **Deutsch**
 
 Ein Betrachter für PDF, E-Books und Comics (Lister-Plugin) für den [Total Commander](https://www.ghisler.com), 32 und 64 Bit.
-F3 auf einer PDF-, EPUB-, FB2/FB3-, MOBI/AZW3- oder Comic-Datei (CBZ, CBR, CB7, CBT), und sie lässt sich direkt lesen – schnell und sparsam, mit Inhaltsverzeichnis, Textsuche, Links und dunklem Design.
+F3 auf einer PDF-, EPUB-, FB2/FB3-, MOBI/AZW3-, DOCX-, ODT-, RTF- oder Comic-Datei (CBZ, CBR, CB7, CBT), und sie lässt sich direkt lesen – schnell und sparsam, mit Inhaltsverzeichnis, Textsuche, Links und dunklem Design.
 PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer angenehmen Lesespalte gesetzt. Nativ, keine Laufzeitumgebung, nichts zu installieren außer dem Plugin.
 
 ![eReader zeigt ein PDF mit seinen Lesezeichen und den Symbolleisten-Buttons für Zoom, Anpassen, Drehen und Abdunkeln](docs/screenshot.de.png)
@@ -14,6 +14,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - **EPUB:** `.epub`, `.kepub`
 - **FictionBook:** `.fb2`, `.fbz`, `.fb3`
 - **Mobipocket und Kindle:** `.mobi`, `.azw`, `.azw3`, `.prc`, `.pdb` – MOBI 6, KF8, PalmDOC, eReader (ungeschützt, als reiner Text); Bücher mit Kopierschutz (DRM) können nicht angezeigt werden
+- **Textdokumente:** `.docx`, `.docm` (Word), `.odt` (OpenDocument), `.rtf` – als fließendes Buch mit Überschriften, Listen, Tabellen, Fußnoten und Bildern; das ist ein Lesewerkzeug, kein Word-Ersatz: die ursprüngliche Formatierung (Seitenlayout, Spalten, Schriften, Kopf- und Fußzeilen) wird nicht nachgebildet
 - **Comics:** `.cbz`, `.cbr`, `.cb7`, `.cbt` – CBR und CB7 nutzen die UnRAR- und 7-Zip-Bibliotheken des Total Commanders (`UNRAR64.DLL`, `TC7Z64.DLL`; `UNRAR.DLL`, `TC7Z.DLL` für 32 Bit)
 
 ## Funktionen
@@ -23,7 +24,7 @@ PDF-Seiten zeichnet Windows selbst, E-Books werden als fließender Text in einer
 - Gehe zu Seite oder Kapitel, Seitenzähler in der Werkzeugleiste, Position im Lister-Titel
 - PDF: Seitenbreite, ganze Seite, Originalgröße und freier Zoom; unterschiedlich große Seiten werden einzeln eingepasst
 - PDF und Comics: aktuelle Seite oder alle Seiten drehen (Strg+R), für gescannte Dokumente, die quer oder auf dem Kopf stehen
-- E-Books: größere und kleinere Schrift, wählbare Schriftart, schmale Textspalte, Bilder (auch SVG und Formeln), Tabellen und Fußnoten; Rechtsklick auf ein Bild kopiert es oder speichert es als Datei
+- E-Books: größere und kleinere Schrift, wählbare Schriftart, schmale Textspalte, wahlweise Blocksatz und Absatzeinzug, Bilder (auch SVG und Formeln), Tabellen und Fußnoten; Rechtsklick auf ein Bild kopiert es oder speichert es als Datei
 - Text markieren und kopieren, auch in PDFs mit Textebene
 - Optionales Suchfeld in der Symbolleiste mit Pfeilen für den vorherigen und nächsten Treffer (`Search=1`) oder ein Such-Knopf, der es einblendet (`Search=2`); Eingabe = weiter, Umschalt+Eingabe = zurück, Strg+F springt hinein, der `.*`-Knopf sucht mit regulären Ausdrücken (gemerkt als `SearchRegex=`) (andere Taste mit `SearchKey=`, z. B. `SearchKey=Ctrl+Shift+F`; leer = Strg+F bleibt beim Total Commander)
 - Merkt sich, wo du aufgehört hast: eine Datei öffnet wieder auf der Seite (PDF, Comics) bzw. im Kapitel (E-Books), die du zuletzt gelesen hast; die Positionen liegen in `eReader_history.ini` neben der `eReader.ini` (verschiebbar mit `HistoryFile=`); abschaltbar mit `RememberPage=0`
@@ -63,7 +64,7 @@ Die Einstellungen liegen in `eReader.ini` neben dem Plugin (alle Schlüssel steh
 | F7 | Suchen (Suche des Total Commander) |
 | F1 | Info |
 
-Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte* – stehen im Kontextmenü (Rechtsklick).
+Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte*, *Blocksatz*, *Absatzeinzug* – stehen im Kontextmenü (Rechtsklick).
 
 ## Einstellungen
 
@@ -82,6 +83,8 @@ Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte* 
 | `BookFont` | Schriftname, leer = Standard | Schrift für E-Books |
 | `BookFontSize` | `6`–`40` (Standard `12`) | Textgröße für E-Books in Punkt |
 | `BookNarrow` | `1` / `0` | Schmale Textspalte für E-Books |
+| `Justify` | `0` wie im Buch (Standard), `1` alles im Blocksatz, `2` nie | Blocksatz in E-Books und Dokumenten (*Blocksatz* im Kontextmenü schaltet zwischen `0` und `1`) |
+| `ParaIndent` | `0`–`100` (Standard `0`) | Einzug der ersten Zeile von Absätzen in Zehntel-em, z. B. `15` = 1,5 em (*Absatzeinzug* im Kontextmenü schaltet zwischen `0` und `15`) |
 | `FootnotePreview` | `1` / `0` (Standard `1`) | Über einem Link im E-Book (Fußnote) zeigt der Tooltip den Text des Ziels |
 
 ## Lizenz
