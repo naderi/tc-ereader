@@ -87,6 +87,14 @@ Weitere Optionen – *Design*, *Knöpfe*, *Schriftart…*, *Schmale Textspalte*,
 | `ParaIndent` | `0`–`100` (Standard `0`) | Einzug der ersten Zeile von Absätzen in Zehntel-em, z. B. `15` = 1,5 em (*Absatzeinzug* im Kontextmenü schaltet zwischen `0` und `15`) |
 | `FootnotePreview` | `1` / `0` (Standard `1`) | Über einem Link im E-Book (Fußnote) zeigt der Tooltip den Text des Ziels |
 
+## Sprachen
+
+eReader gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über das Rechtsklick-Menü (*Sprache der Oberfläche*) oder mit `Language=<Name oder Kürzel>` in der `eReader.ini` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows).
+
+Die Texte stehen in einfachen `.lng`-Dateien im Ordner `Languages`. Für eine neue Sprache kopierst du `Languages\Template.lng`, übersetzt die rechten Seiten und speicherst sie unter einem neuen Namen – sie erscheint dann in der Sprachliste.
+
+Korrekturen und neue Übersetzungen von Muttersprachlern sind sehr willkommen – schick sie bitte als [Issue](https://github.com/naderi/tc-ereader/issues) in diesem Repository.
+
 ## Lizenz
 
 Freeware – kostenlos nutzbar, aber **nicht verkäuflich**. Siehe [LICENSE](LICENSE).

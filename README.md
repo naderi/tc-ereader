@@ -87,6 +87,14 @@ More options – *Theme*, *Buttons*, *Font…*, *Narrow text column*, *Justify t
 | `ParaIndent` | `0`–`100` (default `0`) | First-line indent of paragraphs in tenths of an em, e.g. `15` = 1.5 em (*Paragraph indent* in the context menu switches between `0` and `15`) |
 | `FootnotePreview` | `1` / `0` (default `1`) | Hovering a link inside an e-book (footnote) shows the text of its target in the tooltip |
 
+## Languages
+
+eReader speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the right-click menu (*Interface language*) or set `Language=<name or code>` in `eReader.ini` (for example `Persian` or `fa`; `auto` follows Windows).
+
+The texts are plain `.lng` files in the `Languages` folder. To add a language, copy `Languages\Template.lng`, translate the right-hand sides and save it under a new name – it appears in the language list.
+
+Corrections and new translations from native speakers are very welcome – please send them as an [issue](https://github.com/naderi/tc-ereader/issues) on this repository.
+
 ## License
 
 Freeware – free to use, but **not for sale**. See [LICENSE](LICENSE).
